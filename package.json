@@ -1,0 +1,17 @@
+{
+  "name": "site-2-pdf",
+  "version": "1.0.0",
+  "description": "Converti siti web in PDF con rimozione automatica dei cookie banner",
+  "main": "convert.js",
+  "type": "module",
+  "scripts": {
+    "start": "node convert.js",
+    "convert": "node convert.js"
+  },
+  "keywords": ["pdf", "puppeteer", "brave", "web-scraping"],
+  "author": "Dino-996",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^24.32.0"
+  }
+}
